@@ -4,11 +4,12 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>RestFul Controllers</title>
-    <link asp-href-include=""
+    <link asp-href-include="lib/bootstrap/dist/css/*min.css" rel="stylesheet"/>
 </head>
-<body>
+<body class="m-1 p-1">
+    @RenderBody()
     <div>
-        @RenderBody()
+        
     </div>
 </body>
 </html>
